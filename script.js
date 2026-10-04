@@ -80,7 +80,7 @@ const candidatos = {
 
   renan: {
     nome: "Renan Santos (Missão)",
-    foto: "imagens/Renan_Santos_-_Congresso_do_Partido_Missão,_2026_(cropped_2).jpg",
+    foto: "imagens/Renan_Santos_-_Congresso_do_Partido_Missão,_2026_(cropped).jpg",
     areas: [
       {
         titulo: "Economia e contas públicas",
@@ -220,6 +220,152 @@ const candidatos = {
         ]
       }
     ]
+  },
+
+  caiado: {
+    nome: "Ronaldo Caiado (PSD)",
+    foto: "imagens/Caiado.jpg",
+    areas: [
+      {
+        titulo: "Segurança pública",
+        propostas: [
+          "Criar o Ministério da Segurança Pública e o Conselho Estratégico Nacional de Segurança Pública e Combate ao Terrorismo Doméstico",
+          "Enquadrar facções como PCC, CV e milícias com domínio territorial como organizações de 'terrorismo doméstico', com penas mínimas de 45 anos para associação ou recrutamento e 35 anos para colaboração, financiamento e lavagem de dinheiro",
+          "Reduzir a maioridade penal para 16 anos em crimes graves, como homicídio, tortura, estupro de vulnerável e roubo com violência",
+          "Endurecer as penas para furto de celulares",
+          "Asfixiar financeiramente o crime organizado e retomar o controle do sistema penitenciário"
+        ]
+      },
+      {
+        titulo: "Economia e contas públicas",
+        propostas: [
+          "Apresentar um 'Orçamento da Verdade' nos primeiros meses, com diagnóstico de despesas obrigatórias, subsídios, benefícios tributários e riscos fiscais",
+          "Conter o crescimento das despesas obrigatórias e reduzir a dívida pública",
+          "Elevar a taxa de investimento de cerca de 17% para 25% do PIB, com maior participação do setor privado",
+          "Restringir as apostas on-line, proibindo a publicidade de bets em veículos de massa e redes sociais"
+        ]
+      },
+      {
+        titulo: "Política e gestão do Estado",
+        propostas: [
+          "Enviar uma PEC para acabar com a reeleição de presidente, governadores e prefeitos, incluindo o presidente eleito em 2026",
+          "Adotar o sistema distrital misto nas eleições legislativas",
+          "Aplicar gestão por resultados, com metas e indicadores de desempenho divulgados para cada órgão federal"
+        ]
+      },
+      {
+        titulo: "Saúde, educação e proteção social",
+        propostas: [
+          "Transformar o SUS em uma rede mais preventiva, digital e integrada",
+          "Estabelecer metas de alfabetização na idade certa",
+          "Manter os programas de transferência de renda, associados a qualificação, saúde, creche, moradia e acesso ao trabalho"
+        ]
+      },
+      {
+        titulo: "Agro e meio ambiente",
+        propostas: [
+          "Adotar a 'biocompetitividade' como estratégia nacional e criar um Plano Decenal de Bioenergia (etanol, biodiesel, biometano e bioeletricidade)",
+          "Criar um Plano Safra de cinco anos e ampliar o seguro rural",
+          "Estimular pagamento por serviços ambientais, mercado de carbono e agricultura de baixo carbono"
+        ]
+      }
+    ]
+  },
+
+  zema: {
+    nome: "Romeu Zema (Novo)",
+    foto: "imagens/Romeu_Zema.jpg",
+    areas: [
+      {
+        titulo: "Economia e Estado",
+        propostas: [
+          "Privatizar 100% das empresas estatais e vender imóveis públicos ociosos",
+          "Fazer um choque fiscal, com metas progressivas de redução da carga tributária e fim dos supersalários",
+          "Fazer uma nova reforma da Previdência, com idade mínima reajustada pela expectativa de vida",
+          "Reduzir o IOF e ampliar a concorrência bancária",
+          "Extinguir o Fundo Eleitoral e o Fundo Partidário, realocando os recursos para estradas, escolas e hospitais"
+        ]
+      },
+      {
+        titulo: "Trabalho e assistência social",
+        propostas: [
+          "Criar um modelo alternativo à CLT",
+          "Unificar os programas de renda no Bolsa Família, combatendo fraudes no CadÚnico",
+          "Suspender o benefício de quem recusar sem justificativa uma oferta formal de trabalho (exceto responsáveis por crianças pequenas, idosos e pessoas com deficiência) e pagar prêmio de R$ 5 mil a famílias que saírem do programa por renda",
+          "Criar o programa 'Sócios do Brasil', com depósito de R$ 1.000 para cada brasileiro ao nascer"
+        ]
+      },
+      {
+        titulo: "Segurança pública",
+        propostas: [
+          "Classificar facções criminosas como organizações terroristas",
+          "Construir presídios de segurança máxima em regiões remotas e impedir a progressão de regime de quem usa táticas e armas de guerra para dominar territórios",
+          "População de rua: moradia primeiro, remoção de barracas de espaços públicos e internação involuntária de dependentes químicos, nos termos da lei"
+        ]
+      },
+      {
+        titulo: "Educação",
+        propostas: [
+          "Adotar financiamento por desempenho, acabar com a eleição interna de reitores e priorizar cursos técnicos e científicos"
+        ]
+      },
+      {
+        titulo: "Instituições e meio ambiente",
+        propostas: [
+          "Mudar o STF, devolvendo-lhe o papel estrito de Corte Constitucional",
+          "Garantir aos povos indígenas o pleno direito de exploração econômica de suas terras",
+          "Combater o desmatamento ilegal e a grilagem com monitoramento por satélite"
+        ]
+      }
+    ]
+  },
+
+  cury: {
+    nome: "Augusto Cury (Avante)",
+    foto: "imagens/Augusto_Cury.jpg",
+    areas: [
+      {
+        titulo: "Instituições e gestão do Estado",
+        propostas: [
+          "Adotar o semipresidencialismo, com a criação do cargo de primeiro-ministro",
+          "Estabelecer mandato fixo de oito anos para ministros do STF",
+          "Reduzir de oito a dez ministérios e rever o pacto federativo para redistribuir tributos em favor dos municípios",
+          "Definir metas anuais públicas para cada ministério, com governo totalmente digital e inteligência artificial contra desperdícios"
+        ]
+      },
+      {
+        titulo: "Educação e saúde emocional",
+        propostas: [
+          "Tornar a educação em tempo integral a prioridade principal do governo",
+          "Aplicar programas permanentes de 'gestão da emoção' nas escolas públicas, contra ansiedade, depressão e bullying",
+          "Criar um programa nacional de saúde mental"
+        ]
+      },
+      {
+        titulo: "Saúde",
+        propostas: [
+          "Ampliar a telemedicina no SUS para resolver cerca de 80% das consultas básicas, com meta de atendimento em até 30 minutos",
+          "Criar uma rede nacional de prevenção e detecção precoce do câncer, com comitês em cada município"
+        ]
+      },
+      {
+        titulo: "Economia e empreendedorismo",
+        propostas: [
+          "Buscar responsabilidade fiscal e déficit zero, com redução da carga tributária",
+          "Criar um Ministério (ou Secretaria Executiva) do Empreendedorismo e da Economia Distribuída, com 10 mil escolas e clubes de empreendedorismo e meta de 10 milhões de microempresas",
+          "Incentivar a transição para a escala de trabalho 5x2 e manter os incentivos da Zona Franca de Manaus"
+        ]
+      },
+      {
+        titulo: "Segurança, moradia e meio ambiente",
+        propostas: [
+          "Integrar as polícias com inteligência artificial ('Segurança Pública 4.0') e usar tecnologia para prevenir o feminicídio",
+          "Regularizar até 5 milhões de moradias em favelas em dez anos, sem expulsar os moradores",
+          "Criar o 'Brasil Oásis' para transformar o semiárido em fronteira agrícola, com irrigação de precisão",
+          "Tornar o Brasil referência em hidrogênio verde e criar o projeto 'Floresta Viva' contra incêndios"
+        ]
+      }
+    ]
   }
 };
 
@@ -227,7 +373,7 @@ function mostrarProposta(id) {
   const candidato = candidatos[id];
   const caixa = document.getElementById("propostas");
 
- let html = '<img class="foto" src="' + candidato.foto + '" alt="' + candidato.nome + '">';
+ let html = '<img class="foto" src="' + candidato.foto + '" alt="' + candidato.nome + '" onerror="this.style.display=\'none\'">';
     html += "<h2>" + candidato.nome + "</h2>";
 
   for (const area of candidato.areas) {
